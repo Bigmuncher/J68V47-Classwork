@@ -3,7 +3,7 @@ import java.util.*;
 
 
 
-public class Lesson3 {
+public class L2E3 {
 
     public static void main(String[] args) {
 
@@ -27,16 +27,22 @@ public class Lesson3 {
         System.out.println("Price Of Item 3");
         float price3 = imput.nextFloat();
 
-        float subtotal = 0;
+        float subtotal = price1 + price2 + price3;
 
 
-        subtotal = price1 + price2 + price3;
+
 
         System.out.println("NESMART");
 
         System.out.println("Item 1" + name1 + "£ " + price1);
         System.out.println("Item 2" + name2 + "£ " + price2);
         System.out.println("Item 3" + name3 + "£ " + price3);
+
+        System.out.println("Subtotal: £" + subtotal);
+
+
+
+
 
 
 
